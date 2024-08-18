@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    width: 100%;
+    height: 1150px;
+}
+
+header{
+    width: 100%;
+    background-color: #F9E8CC;
+}
+
+#liLogo{
+    padding-right: 160vh;
+    padding-left: 120px;
+}
+
+#logo{
+    padding-top: 18.5px;
+    width: 110px;
+    height: 120px;
+}
+
+header li{
+    display: inline-block;
+}
+
+header li a{
+    display: inline-block;
+    padding-top: 15px;
+    color: white;
+}
+
+#tresPontos{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 42px;
+}
+
+.dropdown-menu{
+    transition: 1s;
+    position: absolute;
+    display: none;
+    top: 12%;
+}
+
+.dropdown-menu a{
+    width: 44px;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(221, 67, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding-right: 40px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+#texto-p{
+    font-family: "Anton", sans-serif;
+    font-size: 150px;
+    color: black;
+    padding-left: 25%;
+}
+
+#divInt{                   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}        
+
+#texto-s{
+    white-space: nowrap;
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+    color: black;
+    padding-top: 8%;
+    padding-left: 5%;
+}
+
+#div-logo1{
+    padding-left: 170px;
+}
+
+#logo1{
+    width: 700px;
+    height: 700px;
+}
